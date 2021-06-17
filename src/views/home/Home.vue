@@ -117,6 +117,7 @@ export default {
           this.curentType = "sell";
           break;
       }
+      //让两个tabControl保持一致
       this.$refs.tabControl.curentType = index;
       this.$refs.tabControl2.curentType = index;
     },
